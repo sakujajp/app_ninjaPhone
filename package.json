@@ -1,0 +1,34 @@
+{
+  "name": "ninjaphone",
+  "version": "1.0.0",
+  "description": "ninjaphone",
+  "main": "appphone.js",
+  "scripts": {
+    "start": "nodemon appphone.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakujajp/app_ninjaPhone.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "app",
+    "phone"
+  ],
+  "author": "thuycntt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakujajp/app_ninjaPhone/issues"
+  },
+  "homepage": "https://github.com/sakujajp/app_ninjaPhone#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
